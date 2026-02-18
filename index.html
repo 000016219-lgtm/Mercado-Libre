@@ -9,106 +9,144 @@
     </head>
     <!--cuerpo de la pagina-->
     <body> 
-        <header>
-            <div>
+    <header class="header">
+
+        <div class="header-top">
+
+            <div class="logo">
                 <h1>mercado libre</h1> 
             </div>
 
             <div class="buscador">
                 <form> 
-                    <input type="text" placeholder="Buscar productos"> 
+                    <input type="text" placeholder="Buscar productos, marcas y mas..."> 
                     <button type="submit">Buscar</button> 
                 </form> 
             </div>
-        <nav>
+                
+            <div class="user-menu">
+                <a href="registro.html">crea tu cuenta</a>
+                <a href="#">ingresa</a>
+                <a href="#">mis compras</a>
+                <a href="carrito.html">carrito</a>
+            </div>
+                
+        </div>
+              
+        
+        <nav class="nav">
             <ul>
-                <li><a href="index.html">Inicio</a></li> 
-                <li><a href="catalogo.html">Catálogo</a></li>
-                <li><a href="#">0fertas</a></li>
+                <li><a href="#">Categorias</a></li> 
+                <li><a href="#">Ofertas</a></li> 
                 <li><a href="#">Cupones</a></li> 
-                <li><a href="#">Supermercado </a></li> 
-                <li><a href="#">Moda</a></li>
+                <li><a href="#">Supermercado</a></li> 
+                <li><a href="#">Moda</a></li> 
                 <li><a href="#">Mercado Play</a></li> 
                 <li><a href="#">Vender</a></li> 
-                <li><a href="#">Ayuda</a></li> 
-                <li><a href="registro.htm1">Crea tu cuenta</a></li> 
-                <li><a href="#">Ingresa</a></li> 
-                <li><a href="#">Mis compras</a></li> 
-                <li><a href="carrito.html">Carrito</a></li>
-            </ul>
+                <li><a href="#">Ayuda</a></li>
+            </ul>        
         </nav>
+
     </header>
+
     <main>
         <div class="carousel">
+
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+
             <div class="carousel-track">
+
                 <div class="slide slide1">
                     <h2>OUTLET DE JUGUETES</h2>   
                 </div>
+
                 <div class="slide slide2">
                     <h2>HASTA 50% DE DESCUENTO</h2>   
                 </div>
+
                 <div class="slide slide3">
                     <h2>ENVÍOS RAPIDOS</h2>   
                 </div>
+
+            </div>
+            
+            <div class="carousel-buttons">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
             </div>
 
         </div>
+
+
         <div class="seccion-cards">
             <div class="cards-container">
-            <div class="card">
-                <h3>envío gratis</h3>
-                <div class="card-img">imagen</div>
-                <div class="card-body">
-                <p>beneficio por ser tu primera compra</p>
-                <button>mostrar mas productos</button>
-            </div>
-        </div>
-        <div class="card">
-            <h3>Ingresa tu cuenta</h3>
-            <div class="card-img">imagen</div>
-            <div class="card-body">
-                <p>Disfruta de ofertas y compra sin limites</p>
-                <button>Ingresar</button>
-            </div>
-        </div>
                 <div class="card">
-            <h3>Menos de $500</h3>
-            <div class="card-img">imagen</div>
-            <div class="card-body">
-                <p>Descubre productos con precios bajos</p>
-                <button>Ver productos</button>
-            </div>
-        </div>
+                    <h3>envío gratis</h3>
+                    <div class="card-img">imagen</div>
+                    <div class="card-body">
+
+                        <p>beneficio por ser tu primera compra</p>
+                        <button>mostrar mas productos</button>
+                    </div>
+                </div>
+
                 <div class="card">
-            <h3>Más vendidos</h3>
-            <div class="card-img">Img</div>
-            <div class="card-body">
-                <p>Explora los productos que son tendencia.</p>
-                <button>Ir a mas vendidos</button>
+                    <h3>Ingresa tu cuenta</h3>
+                    <div class="card-img">imagen</div>
+                    <div class="card-body">
+                        <p>Disfruta de ofertas y compra sin limites</p>
+                        <button>Ingresar</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Menos de $500</h3>
+                    <div class="card-img">imagen</div>
+                    <div class="card-body">
+
+                        <p>Descubre productos con precios bajos</p>
+                        <button>Ver productos</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Más vendidos</h3>
+                    <div class="card-img">Imagen</div>
+                    <div class="card-body">
+
+                        <p>Explora los productos que son tendencia.</p>
+                        <button>Ir a mas vendidos</button>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-        </div>
+
         <div> 
-        <h2>0fertas</h2>
-        <p>img</p> 
-        <p>Ver más</p> 
+            <h2>0fertas</h2>
+            <p>img</p> 
+            <p>Ver más</p> 
         </div>
 
         <div class="seccion">
-        <h2>0fertas del día</h2>
-        <div class="producto">producto1</div>
-        <div class="producto">producto2</div>
-        <div class="producto">producto3</div>
+            <h2>0fertas del día</h2>
+            <div class="producto">producto1</div>
+            <div class="producto">producto2</div>
+            <div class="producto">producto3</div>
         </div>
 
         <div>
-        <h2>VIVE MERCADO LIBRE COMO UN EXPERTO</h2> 
+            <h2>VIVE MERCADO LIBRE COMO UN EXPERTO</h2> 
         </div> 
 
     </main>
-        <footer> 
-            <p>0 2026 Mercado Libre</p> 
-        </footer> 
-    </body> 
+
+    <footer> 
+        <p>0 2026 Mercado Libre</p> 
+    </footer> 
+</body> 
+
+
 </html>
